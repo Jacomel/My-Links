@@ -1,5 +1,5 @@
 import "./Style";
-import Logo from "./img/logo.jpg";
+import Logo from "../img/logo.jpg";
 import { Conteiner, GlobalStyle } from "./Style";
 
 export function App() {
