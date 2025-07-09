@@ -1,5 +1,5 @@
 import "./Style";
-import logo from "./Img/logo.jpg";
+import Logo from "./img/logo.jpg";
 import { Conteiner, GlobalStyle } from "./Style";
 
 export function App() {
@@ -8,7 +8,7 @@ export function App() {
       <GlobalStyle />
       <Conteiner className="conteiner">
         <div className="caixa-img">
-          <img className="imagem" src={logo} alt="Imagem de perfil" />
+          <img className="imagem" src={Logo} alt="Imagem de perfil" />
         </div>
 
         <ul>
